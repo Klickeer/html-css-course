@@ -2,12 +2,12 @@ body{
     margin: 0;
 }
 
-.all{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+html, body {
     height: 100%;
+    margin: 0;
+}
+.all{
+    min-height: 100%;
 }
 
 .all {
