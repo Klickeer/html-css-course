@@ -8,6 +8,7 @@
         border-radius: 3px;
         cursor: pointer;
         margin-right: 10px;
+        transition: opacity 0.15s;
     }
 
     .join-but{
@@ -20,6 +21,7 @@
         height: 36px;
         width: 55px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
     }
 
     .tweer-but{
@@ -33,6 +35,24 @@
         font-size: 14px;
         cursor: pointer;
         background-color: rgb(1, 183, 255);
+        transition: box-shadow 0.15s;
+    }
+
+    .subscribe-but:hover{
+        opacity: 0.7;
+    }
+    .subscribe-but:active{
+        opacity: 0.5;
+    }
+    .join-but:hover{
+        background-color: rgb(6, 161, 223);
+        color: white;
+    }
+    .join-but:active{
+        opacity: 0.7
+    }
+    .tweer-but:hover{
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
     }
 </style>
 
