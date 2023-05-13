@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.all{
+    height: 1069px;
+    width: 1998px;
+}
+
+.all {
+    background: linear-gradient(45deg,#232526,#414345);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+@keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 14rem;
+}
+
+.jobwork, .homework { 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+  .jobwork h1, .homework h1{
+    text-transform: uppercase;
+    color: #2e85cc;
+  }
+   
+  .jobwork a ,.homework a { 
+    flex-basis: calc(50% - 10px); 
+    margin-bottom: 20px; 
+    padding: 23px;
+    width: 30rem;
+    background-color: #F0F2F0;
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 25px;
+    font-weight: bolder;
+    color: #333; 
+    transition: background-color 0.2s ease-in-out; 
+  } 
+   
+  .jobwork a:hover, .homework a:hover{ 
+    background-color: #2e85cc; 
+    color: #fff; 
+  }
