@@ -11,7 +11,7 @@ html, body {
 }
 
 .all {
-    background: linear-gradient(45deg,#232526,#414345);
+    background: linear-gradient(45deg,#232526,#153b61);
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
 }
@@ -83,8 +83,8 @@ wrapper{
         gap: 14rem;
     }
     .jobwork a ,.homework a { 
-        padding: 40px;
-        width: 40rem;
+        padding: 45px;
+        width: 45rem;
         background-color: #F0F2F0;
         border-radius: 5px; 
         text-align: center; 
@@ -92,13 +92,17 @@ wrapper{
         font-size: 40px;
         font-weight: bolder;
         color: #333; 
-        transition: background-color 0.2s ease-in-out; 
+        transition: background-color 0.2s ease-in-out;
+        margin-bottom: 25px;
       } 
       .jobwork h1, .homework h1{
-        color: #cc2e2e;
+        color: #a11e1e;
       }
       .jobwork a:hover, .homework a:hover{ 
-        background-color: #cc2e2e; 
+        background-color: #a11e1e; 
         color: #fff; 
+      }
+      .link-2{
+        margin-top: 65px;
       }
   }
