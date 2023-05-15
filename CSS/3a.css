@@ -1,0 +1,81 @@
+.back-next-but{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.next-but{
+    margin-left: 10px;
+}
+a{
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+.stretch-but{
+    background-color: rgb(28, 170, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: none;
+    font-size: 15.5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: padding-bottom 0.8s, padding-top 0.8s, padding-left 0.8s, padding-right 0.8s;
+}
+.stretch-but:hover{
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: none;
+}
+
+.shadow-but{
+    background-color: rgb(28, 170, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: none;
+    font-size: 15.5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
+    transition: margin-left 0.1s, margin-top 0.1s, box-shadow 0.1s;
+}
+.shadow-but:active{
+    box-shadow: none;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.one-two-three-but{
+    background-color: rgb(28, 170, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15.5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: padding-left 0.2s, padding-right 0.2s, margin-left 0.2s, margin-right 0.2s;
+}
+.one-two-three-but:hover{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
