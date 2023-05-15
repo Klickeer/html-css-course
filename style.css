@@ -45,13 +45,14 @@ wrapper{
   .jobwork h1, .homework h1{
     text-transform: uppercase;
     color: #2e85cc;
+    font-size: 29px;
   }
    
   .jobwork a ,.homework a { 
     flex-basis: calc(50% - 10px); 
     margin-bottom: 20px; 
-    padding: 23px;
-    width: 30rem;
+    padding: 21px;
+    width: 28rem;
     background-color: #F0F2F0;
     border-radius: 5px; 
     text-align: center; 
@@ -96,13 +97,14 @@ wrapper{
         margin-bottom: 25px;
       } 
       .jobwork h1, .homework h1{
-        color: #a11e1e;
+        color: #ac197b;
+        font-size: 38px;
       }
       .jobwork a:hover, .homework a:hover{ 
-        background-color: #a11e1e; 
+        background-color: #ac197b; 
         color: #fff; 
       }
-      .link-2{
+      .homework .link-2{
         margin-top: 65px;
       }
   }
