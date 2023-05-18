@@ -103,17 +103,22 @@
     color: rgb(78, 78, 78);
     margin-bottom: 12px;
 }
+.div-daud{
+    display: flex;
+    justify-content: center;
+}
 .dbuy{
-    text-align: center;
+    vertical-align: middle;
     background-color: rgb(26, 163, 255);
     color: white;
     border-radius: 20px;
-    padding: 7px;
-    margin-left: 855px;
-    margin-right: 855px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 0;
+    border: none;
 }
 .USD{
 
