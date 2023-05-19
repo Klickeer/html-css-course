@@ -20,7 +20,7 @@ p{
     margin-top: 6px;
 }
 
-.div-google, .div-input{
+.div-google, .div-input, .herego{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -98,6 +98,15 @@ p{
     border: none;
     padding: 10.2px;
     background-color: rgba(187, 185, 181, 0.514);
+    margin-left: 18px;
+    margin-top: 22px;
+}
+
+.herher{
+    width: 140px;
+    border: none;
+    padding: 10.2px;
+    background-color: rgba(148, 148, 148, 0.158);
     margin-left: 18px;
     margin-top: 22px;
 }
