@@ -1,0 +1,148 @@
+.osnova{
+    margin-top: 0;
+}
+
+
+.red-block{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin-left: 2px;
+}
+
+.green-block{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(14, 173, 14);
+    border-radius: 35px;
+}
+
+.div-8b{
+    width: 350px;
+    height: 110px;
+    border: solid 1px grey;
+}
+
+.p-8b{
+    margin: 0;
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-bottom: 12px;
+}
+
+.but-8b{
+    margin-left: 4%;
+}
+
+.div-8d{
+    width: 400px;
+    height: 114px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.music{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.p-music{
+    color: rgb(182, 182, 182);
+    padding-left: 15px;
+    padding-top: 13px;
+    margin: 0;
+}
+
+.div-8e{
+    width: 500px;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+}
+
+.blue-6g-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    object-fit: cover;
+    object-position: top;
+    vertical-align:middle;
+}
+.input-6g{
+    margin-left: 0;
+    width: 333px;
+    height: 50px;
+    border-radius: 20px;
+    border:none;
+    font-size: 17px;
+    padding-left: 18px;
+    vertical-align:middle;
+    padding-left: 10px;
+}
+
+.tweet{
+    color: white;
+    border: none;
+    margin-left: 8px;
+    padding: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(1, 175, 255);
+}
+
+.garou{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position:center;
+    display: block;
+}
+
+.text-div{
+    width: 161px;
+    padding-left: 9px;
+    padding-top: 10px;
+    height: 90px;
+    padding-bottom: 5px;
+    border: none;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.253);
+}
+
+.text-garou{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-long{
+    margin: 0;
+    margin-top: 3px;
+    color: rgb(56, 56, 56);
+}
+
+.but-garou{
+    color: white;
+    border: none;
+    height: 35px;
+    width: 6.5rem;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(11, 113, 214);
+}
+
+.div-1{
+    display: inline-block;
+    margin-right: 15px;
+}
