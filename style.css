@@ -51,8 +51,8 @@ wrapper{
   .jobwork a ,.homework a { 
     flex-basis: calc(50% - 10px); 
     margin-bottom: 20px; 
-    padding: 21px;
-    width: 28rem;
+    padding: 12px;
+    width: 29rem;
     background-color: #F0F2F0;
     border-radius: 5px; 
     text-align: center; 
