@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .grid-all{
+            display: grid;
+            grid-template-columns: 170px 170px 170px;
+            column-gap: 20px;
+        }
+        .garou{
+            width: 100%;
+            height: 170px;
+            display: grid;
+        }
+
+        .dead{
+            display: flex;
+            align-items: center;
+        }
+
+        .text-div{
+            display: grid;
+            grid-template-rows: 25px 40px 40px;
+            padding-left: 9px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            align-items: center;
+            border: none;
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.253);
+        }
+
+        .text-garou{
+            margin: 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .text-long{
+            color: rgb(56, 56, 56);
+            margin-left: 6px;
+        }
+
+        .but-garou{
+            color: white;
+            border: none;
+            height: 35px;
+            width: 6.5rem;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: rgb(11, 113, 214);
+        }
+        .ava-garou{
+            width: 28px;
+            border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <p>-- 9a --</p>
+    <div style="display: grid;
+    grid-template-columns: 200px 75px;
+    ">
+        <div style="background-color: 
+        lightskyblue;">200px</div>
+        <div style="background-color: 
+        lightpink">75px</div>
+    </div>
+
+    <p>-- 9b --</p>
+    <div style="display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    ">
+        <div style="background-color: 
+        lightskyblue;">col1</div>
+        <div style="background-color: 
+        lightpink">col2</div>
+        <div style="background-color: 
+        lightskyblue;">col3</div>
+    </div>
+
+    <p>-- 9c --</p>
+    <div style="
+    display: grid;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px; 
+    ">
+        <div style="background-color: 
+        lightpink; height: 18px;">col1</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col2</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col3</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col4</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col1</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col2</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col3</div>
+        <div style="background-color: 
+        lightpink; height: 18px;">col4</div>
+    </div>
+    
+    <p>-- 9c --</p>
+    <div class="grid-all">
+        <div class="div-1">
+            <img class="garou" src="../img/ichigo.jpeg">
+
+            <div class="text-div">
+                <div class="block-div">
+                    <p class="text-garou">Ichigo</p>
+                </div>
+                <div class="dead">
+                    <div>
+                        <img class="ava-garou" src="../img/garou.jpeg">
+                    </div>
+                    <div>
+                        <p class="text-long">3 mutual friends</p>
+                    </div>
+                </div>
+                <div class="block-div">
+                    <button class="but-garou">Add Friend</button>
+                </div>
+            </div>
+        </div>
+        <div class="div-1">
+            <img class="garou" src="../img/sasuke.jpeg">
+
+            <div class="text-div">
+                <div class="block-div">
+                    <p class="text-garou">Sasuke</p>
+                </div>
+                <div class="dead">
+                    <div>
+                        <img class="ava-garou" src="../img/garou.jpeg">
+                    </div>
+                    <div>
+                        <p class="text-long">4 mutual friends</p>
+                    </div>
+                </div>
+                <div class="block-div">
+                    <button class="but-garou">Add Friend</button>
+                </div>
+            </div>
+        </div>
+        <div class="div-1">
+            <img class="garou" src="../img/nagiblue.jpeg">
+
+            <div class="text-div">
+                <div class="block-div">
+                    <p class="text-garou">Nagi</p>
+                </div>
+                <div class="dead">
+                    <div>
+                        <img class="ava-garou" src="../img/garou.jpeg">
+                    </div>
+                    <div>
+                        <p class="text-long">5 mutual friends</p>
+                    </div>
+                </div>
+                <div class="block-div">
+                    <button class="but-garou">Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
