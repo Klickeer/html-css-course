@@ -70,11 +70,11 @@ wrapper{
 
   @media (max-width: 1000px){
     .all{
-        position: fixed;
+        position:absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 2500px;
     }
     wrapper{
         display: block;
@@ -97,11 +97,11 @@ wrapper{
         margin-bottom: 25px;
       } 
       .jobwork h1, .homework h1{
-        color: #ac197b;
+        color: #d6c31b;
         font-size: 38px;
       }
       .jobwork a:hover, .homework a:hover{ 
-        background-color: #ac197b; 
+        background-color: #d6c31b; 
         color: #fff; 
       }
       .homework .link-2{
