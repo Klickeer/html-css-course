@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.link-video-info{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .video-title{
     margin-top: 0;
     font-size: 14px;
@@ -31,6 +36,73 @@
     width: 36px;
     border-radius: 50px;
 }
+
+.profile-picture-dub{
+    width: 45px;
+    border-radius: 50px;
+}
+
+.channel-picture,
+.channel-picture-2a,
+.channel-picture-3a{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.odno{
+    cursor: pointer;
+}
+
+.channel-picture .dub,
+.channel-picture-2a .dub,
+.channel-picture-3a .dub,
+.channel-picture-4a .dub,
+.channel-picture-5a .dub,
+.channel-picture-6a .dub{
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Arial;
+    position: absolute;
+    bottom: -80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.212);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 6px;
+    font-size: 12px;;
+    opacity: 0;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.channel-picture:hover .dub,
+.channel-picture-2a:hover .dub,
+.channel-picture-3a:hover .dub,
+.channel-picture-4a:hover .dub,
+.channel-picture-5a:hover .dub,
+.channel-picture-6a:hover .dub{
+    opacity: 1;
+}
+
+.dub-text-a{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.dub-text-b{
+    margin-left: 5px;
+    color: rgb(94, 94, 94);
+}
+
+
+
+
 
 .thumbnail-row{
     margin-bottom: 8px;
