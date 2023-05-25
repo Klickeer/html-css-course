@@ -1,0 +1,111 @@
+body{
+    height: 1000px;
+}
+
+.f14{
+    position: fixed;
+    top: 230px;
+    left: 100px;
+    color: white;
+}
+
+.header{
+    display: flex;
+    height: 45px;
+    justify-content: space-around;
+    gap: 600px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.div-one-header{
+    display: flex;
+    align-items: center;
+}
+
+.header-picture{
+    height: 37px;
+    width: 37px;
+    border-radius: 30px;
+}
+.text-div-one{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.div-two-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.one-button{
+    background-color: rgb(33, 92, 255);
+    color: white;
+    border: none;
+    padding: 7px;
+    width: 90px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.two-button{
+    background-color: rgba(195, 197, 201, 0.651);
+    border: none;
+    padding: 7px;
+    width: 90px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 45px;
+    bottom: 0px;
+}
+
+.div-one-main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+    padding: 5px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.div-two-main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 10px;
+    padding-right: 10px;
+    gap: 15px;
+}
+
+.header-picture-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.text-info{
+    color: white;
+    font-size: 14px;
+    margin-bottom: -5px;
+    
+}
+
+.more-text{
+    color: rgb(165, 165, 165);
+    font-size: 17px;
+}
+
+.plus{
+    font-size: 11px;
+    vertical-align:middle;
+    margin-left: 80px;
+}
