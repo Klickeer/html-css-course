@@ -1,0 +1,79 @@
+.x-div{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+}
+
+.grey-div{
+    position: fixed;
+    bottom: 500px;
+    right: 8px;
+    background-color: grey;
+    height: 180px;
+    width: 320px;
+}
+
+.grey-div-two{
+    position: fixed;
+    bottom: 250px;
+    right: 8px;
+    background-color: grey;
+    height: 180px;
+    width: 320px;
+}
+
+.x-div-two{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.grey-div-three{
+    position: fixed;
+    bottom: 5px;
+    right: 8px;
+    background-color: grey;
+    height: 180px;
+    width: 320px;
+}
+
+.x-div-three{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.time{
+    position: absolute;
+    bottom: 8px;
+    right: 6px;
+    background-color: black;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
