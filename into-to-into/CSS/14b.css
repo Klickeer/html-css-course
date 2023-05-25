@@ -9,6 +9,12 @@ body{
     color: white;
 }
 
+.e14{
+    position: fixed;
+    top: 13px;
+    left: 400px;
+}
+
 .header{
     display: flex;
     height: 45px;
